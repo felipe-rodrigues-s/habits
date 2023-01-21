@@ -1,6 +1,8 @@
 import "./styles/index.css";
 import { Header } from "./components/Header";
 import { SummaryTable } from "./components/SummaryTable";
+import "./libs/dayjs";
+
 export function App() {
   return (
     <div
