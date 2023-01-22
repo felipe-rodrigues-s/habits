@@ -13,7 +13,7 @@ export function ProgressBar(props: ProgressBarProps) {
       className="h-3 rounded-xl bg-zinc-700 w-full m-4"
       value={100}>
       <Progress.Indicator
-        className="h-3 rounded-xl bg-violet-600"
+        className="h-3 rounded-xl bg-violet-600 transition-colors"
         style={progressStyle}
       />
     </Progress.Root>

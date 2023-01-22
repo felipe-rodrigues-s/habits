@@ -22,6 +22,8 @@ export function Header() {
           px-6 py-4
           flex items-center gap-3
           hover:border-violet-300
+          transition-colors
+          focus:outline-none focus:ring-1 focus:ring-violet-600 focus:ring-offset-2 focus:ring-offset-background
         `}>
           <Plus
             size={20}
@@ -51,6 +53,8 @@ export function Header() {
               className={`
                 absolute right-6 top-6
                 text-zinc-400 hover:text-zinc-200
+                rounded-lg
+                focus:outline-none focus:ring-1 focus:ring-violet-600 focus:ring-offset-2 focus:ring-offset-zinc-900 
               `}>
               <X size={24} aria-label="fechar" />
             </Dialog.Close>
